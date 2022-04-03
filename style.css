@@ -127,6 +127,30 @@ header{
     background: url("images/hero/iphone-11/iphone_11_large.jpg");
 }
 
+.title-dark{
+    color: #000;
+}
+
+.cta-link-darker{
+    color: #0070c9;
+}
+
+.cta-link-darker:hover{
+    border-bottom: #0070c9 solid 0.2rem;
+}
+
+.watch{
+    background: url("images/hero/watch/watch_large.jpg");
+}
+
+.title-heading-watch{
+    height: 7.8rem;
+    background: url("images/hero/watch/logo_watch_large.png") center no-repeat;
+    background-size: auto 7.8rem;
+    margin-top: 1.6rem;
+}
+
+/* Moved to the bottom of all Section styles to keep consistant styles */
 .hero{
     height: 69.2rem;
     background-size: auto 73.6rem;
@@ -139,3 +163,4 @@ header{
 .iphone-11-pro{
     border-top: none;
 }
+/* End */
