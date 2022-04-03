@@ -151,6 +151,45 @@ header{
     margin-top: 1.6rem;
 }
 
+@media only screen and (max-width: 1068px) {
+    .iphone-11-pro{
+        background: url("images/hero/iphone-11-pro/iphone_11_pro_medium.jpg");
+    }
+
+    .iphone-11{
+        background: url("images/hero/iphone-11/iphone_11_medium.jpg");
+    }
+
+    .watch{
+        background: url("images/hero/watch/watch_medium.jpg");
+    }
+
+    .hero{
+        height: 65rem;
+        background-size: auto 69.8rem;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+
+    .title-heading{
+        font-size: 4.4rem;
+    }
+
+    .title-sub-heading{
+        font-size: 2.4rem;
+    }
+
+    .cta-link:nth-child(2){
+        margin-left: 2rem;
+    }
+
+    .title-heading-watch{
+        height: 6.2rem;
+        background: url("images/hero/watch/logo_watch_medium.png") center no-repeat;
+        background-size: auto 6.2rem;
+    }
+}
+
 /* Moved to the bottom of all Section styles to keep consistant styles */
 .hero{
     height: 69.2rem;
@@ -201,6 +240,7 @@ header{
     width: 600px;
     color: #fff;
     padding: 35px;
+    text-shadow: 2px 2px 4px #000000;
   }
 
   .slide .content-dark{
@@ -210,6 +250,7 @@ header{
   .slide .content h1 {
     margin-bottom: 10px;
     font-size: 5.6rem;
+
   }
 
   .slide .content p{
@@ -265,4 +306,18 @@ header{
   .slide:nth-child(6)  {
     background: url("images/slider/iphone\ se.jpg") no-repeat
       center center/cover;
+  }
+
+  @media only screen and (max-width: 1068px){
+      .slider{
+          height: 64rem;
+      }
+
+      .slide .content h1{
+          font-size: 4.4rem;
+      }
+
+      .slide .content p{
+          font-size: 2.4rem;
+      }
   }
