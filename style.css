@@ -76,6 +76,7 @@ header{
 .iphone-11-pro{
     background: url("images/hero/iphone-11-pro/iphone_11_pro_large.jpg");
     margin-top: 4.4rem;
+    height: 72rem !important;
 }
 
 .title{
@@ -164,3 +165,104 @@ header{
     border-top: none;
 }
 /* End */
+
+
+/* Slider */
+.wrapper{
+    overflow-x: hidden;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    height: 72rem;
+    width: 100vw;
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+  }
+  
+  .slide.current {
+    opacity: 1;
+  }
+  
+  .slide .content {
+    position: absolute;
+    bottom: 70px;
+    left: -600px;
+    opacity: 0;
+    width: 600px;
+    color: #fff;
+    padding: 35px;
+  }
+
+  .slide .content-dark{
+    color: #555;
+  }
+  
+  .slide .content h1 {
+    margin-bottom: 10px;
+    font-size: 5.6rem;
+  }
+
+  .slide .content p{
+    font-size: 2.65rem;
+  }
+  
+  .slide.current .content {
+    opacity: 1;
+    transform: translateX(600px);
+    transition: all 0.7s ease-in-out 0.3s;
+  }
+  
+  .buttons {
+      display: none;
+  }
+  
+  @media (max-width: 500px) {
+    .slide .content {
+      bottom: -300px;
+      left: 0;
+      width: 100%;
+    }
+  
+    .slide.current .content {
+      transform: translateY(-300px);
+    }
+  }
+  
+  
+  
+  /* Backgorund Images */
+   
+  .slide:first-child {
+    background: url("images/slider/Tv\ show-2.jpg") no-repeat
+      center top/cover;
+  }
+  .slide:nth-child(2) {
+    background: url("images/slider/Macbook\ pro.jpg") no-repeat
+      center top/cover;
+  }
+  .slide:nth-child(3) {
+    background: url("images/slider/Iphone-13.jpg") no-repeat
+      center top/cover;
+  }
+  .slide:nth-child(4) {
+    background: url("images/slider/Tv\ show.jpg") no-repeat
+      center top/cover;
+  }
+  .slide:nth-child(5) {
+    background: url("images/slider/Mac\ studio.jpg") no-repeat
+      center top/cover;
+  } 
+  .slide:nth-child(6)  {
+    background: url("images/slider/iphone\ se.jpg") no-repeat
+      center center/cover;
+  }
