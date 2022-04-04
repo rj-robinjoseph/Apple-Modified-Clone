@@ -134,6 +134,11 @@ header{
     display: inline-block;
 }
 
+.cta-link img{
+    width: 1.3rem;
+    margin-left: 0.5rem;
+}
+
 .cta-link:nth-child(2){
     margin-left: 2.6rem;
 }
@@ -281,6 +286,41 @@ header{
     left: 50%;
     transform: translateX(-50%);
 }
+
+.gird{
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.grid-link{
+    color: #66bbff;
+    margin-top: 1.2rem;
+    font-size: 1.6rem;
+    display: inline-block;
+}
+
+.grid-link img{
+    width: 1rem;
+    margin-left: 0.2rem;
+}
+
+.grid-link:nth-child(2){
+    margin-left: 2.6rem;
+}
+
+.grid-link:hover{
+    border-bottom: #66bbff solid 0.2rem;
+}
+
+.grid-link-darker{
+    color: #0070c9;
+}
+
+.grid-link-darker:hover{
+    border-bottom: #0070c9 solid 0.2rem;
+}
+
+
 
 
 
