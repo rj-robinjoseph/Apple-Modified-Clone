@@ -92,8 +92,9 @@ header{
 }
 
 /* Iphone 11 Pro Section */
-.iphone-11-pro{
-    background: url("images/hero/iphone-11-pro/iphone_11_pro_large.jpg");
+.iphone-13-pro{
+    background: url("images/hero/iphone-13-pro/iphone-13-pro-large.png");
+    background-size: cover;
     margin-top: 4.4rem;
     height: 72rem !important;
 }
@@ -148,8 +149,8 @@ header{
 }
 
 /* Iphone 11 Section */
-.iphone-11{
-    background: url("images/hero/iphone-11/iphone_11_large.jpg");
+.iphone-12{
+    background: url("images/hero/iphone-12/iphone-12-large.png");
 }
 
 .title-dark{
@@ -170,7 +171,7 @@ header{
 
 .title-heading-watch{
     height: 7.8rem;
-    background: url("images/hero/watch/logo_watch_large.png") center no-repeat;
+    background: url("images/hero/watch/watch-nike-logo-202109.png") center no-repeat;
     background-size: auto 7.8rem;
     margin-top: 1.6rem;
 }
@@ -230,7 +231,7 @@ header{
 }
 
 .column-2 {
-    background: url(images/section/s-4.2.jpg);
+    background: url(images/section/Apple_HomePod_mini.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -238,7 +239,20 @@ header{
 
 .column-3 {
     background: url(images/section/s-4.3.jpg);
-    background-size: contain;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.column-4 {
+    background: url(images/section/s-4-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.column-5 {
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -280,11 +294,31 @@ header{
     color: #000;
 }
 
-.homepod{
+.title-heading-sm-ipad{
+    height: 6.2rem;
+        background: url("images/section/ipad-air\ logo.png") center no-repeat;
+        background-size: auto 6.2rem;
+}
+
+.title-heading-sm-homepod{
+    height: 6.2rem;
+        background: url("images/section/Homepod-logo.png") center no-repeat;
+        background-size: auto 6.2rem;
+}
+
+
+.one{
     position: absolute;
     bottom: -50rem;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.iphone-se-vid{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
 }
 
 .gird{
@@ -455,3 +489,6 @@ header{
           font-size: 2.4rem;
       }
   }
+
+
+  
