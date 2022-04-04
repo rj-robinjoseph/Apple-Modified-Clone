@@ -259,7 +259,7 @@ header{
 }
 
 .column-6 {
-    background: url(images/section/See-poster.jpg);
+    background: url(images/section/Apple-Products.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -314,9 +314,9 @@ header{
     background-size: auto 6.2rem;
 }
 
-.title-heading-sm-tv{
+.title-heading-sm-all{
     height: 6.2rem;
-    background: url("images/section/Apple-tv-logo.png") center no-repeat;
+    background: url("images/section/Apple-logo.png") center no-repeat;
     background-size: auto 6.2rem;
 }
 
@@ -447,27 +447,27 @@ header{
   /* Backgorund Images */
    
   .slide:first-child {
-    background: url("images/slider/Tv\ show-2.jpg") no-repeat
+    background: url("images/slider/The-Line.jpg") no-repeat
       center top/cover;
   }
   .slide:nth-child(2) {
-    background: url("images/slider/Macbook\ pro.jpg") no-repeat
+    background: url("images/slider/Home.jpg") no-repeat
       center top/cover;
   }
   .slide:nth-child(3) {
-    background: url("images/slider/Iphone-13.jpg") no-repeat
+    background: url("images/slider/Invasion.jpg") no-repeat
       center top/cover;
   }
   .slide:nth-child(4) {
-    background: url("images/slider/Tv\ show.jpg") no-repeat
+    background: url("images/slider/Ghost-writer.webp") no-repeat
       center top/cover;
   }
   .slide:nth-child(5) {
-    background: url("images/slider/Mac\ studio.jpg") no-repeat
+    background: url("images/slider/The-Morning-Show.jpg") no-repeat
       center top/cover;
   } 
   .slide:nth-child(6)  {
-    background: url("images/slider/iphone\ se.jpg") no-repeat
+    background: url("images/slider/Fountation.jpg") no-repeat
       center center/cover;
   }
 
