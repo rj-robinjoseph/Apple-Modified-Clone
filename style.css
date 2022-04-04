@@ -255,6 +255,14 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
+}
+
+.column-6 {
+    background: url(images/section/See-poster.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
   
 /* Clearfix (clear floats) */
@@ -296,14 +304,24 @@ header{
 
 .title-heading-sm-ipad{
     height: 6.2rem;
-        background: url("images/section/ipad-air\ logo.png") center no-repeat;
-        background-size: auto 6.2rem;
+    background: url("images/section/ipad-air\ logo.png") center no-repeat;
+    background-size: auto 6.2rem;
 }
 
 .title-heading-sm-homepod{
     height: 6.2rem;
-        background: url("images/section/Homepod-logo.png") center no-repeat;
-        background-size: auto 6.2rem;
+    background: url("images/section/Homepod-logo.png") center no-repeat;
+    background-size: auto 6.2rem;
+}
+
+.title-heading-sm-tv{
+    height: 6.2rem;
+    background: url("images/section/Apple-tv-logo.png") center no-repeat;
+    background-size: auto 6.2rem;
+}
+
+.grid-link-tv{
+    color: #000;
 }
 
 
@@ -321,8 +339,9 @@ header{
     background-size: cover;
 }
 
-.gird{
-    margin-top: 2.5rem;
+
+.grid{
+    margin-top: 1rem;
     text-align: center;
 }
 
