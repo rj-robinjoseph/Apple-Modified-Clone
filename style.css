@@ -401,8 +401,9 @@ header{
 .slider {
     position: relative;
     overflow: hidden;
-    height: 72rem;
+    height: 59rem;
     width: 100vw;
+    background-color: #000;
   }
   
   .slide {
@@ -417,31 +418,6 @@ header{
   
   .slide.current {
     opacity: 1;
-  }
-  
-  .slide .content {
-    position: absolute;
-    bottom: 70px;
-    left: -600px;
-    opacity: 0;
-    width: 600px;
-    color: #fff;
-    padding: 35px;
-    text-shadow: 2px 2px 4px #000000;
-  }
-
-  .slide .content-dark{
-    color: #000;
-  }
-  
-  .slide .content h1 {
-    margin-bottom: 10px;
-    font-size: 5.6rem;
-
-  }
-
-  .slide .content p{
-    font-size: 2.65rem;
   }
   
   .slide.current .content {
