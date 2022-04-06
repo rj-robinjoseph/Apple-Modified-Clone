@@ -59,3 +59,8 @@ if (auto) {
   // Run next slide at interval time
   slideInterval = setInterval(nextSlide, intervalTime);
 }
+
+// Search Container Animation
+
+const searchButton = document.querySelector("nav .nav-list .nav-link-search");
+const closeButton = document.querySelector(".search-container .link-close");
