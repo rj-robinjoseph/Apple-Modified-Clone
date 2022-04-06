@@ -282,7 +282,7 @@ header {
 .search-container.hide form,
 .search-container.hide .link-search {
   opacity: 0;
-  transform: translateX(5rem;
+  transform: translateX(5rem);
 }
 
 .search-container .link-search {
