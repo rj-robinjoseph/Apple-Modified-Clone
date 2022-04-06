@@ -164,6 +164,7 @@ header {
   left: 0;
   top: 0;
   z-index: 100;
+  transition: all 400ms ease;
 }
 
 /* container */
@@ -211,6 +212,135 @@ header {
 .nav-list.hide li {
   opacity: 0;
   pointer-events: none;
+  transform: scale(0.8);
+}
+
+.nav-list-larger li {
+  transition: all 400ms ease;
+}
+
+/* Nav menu transition delay */
+.nav-list-larger li:nth-of-type(1),
+.nav-list-larger li:nth-of-type(10) {
+  transition-delay: 0ms;
+}
+
+.nav-list-larger li:nth-of-type(2),
+.nav-list-larger li:nth-of-type(9) {
+  transition-delay: 30ms;
+}
+
+.nav-list-larger li:nth-of-type(3),
+.nav-list-larger li:nth-of-type(8) {
+  transition-delay: 60ms;
+}
+
+.nav-list-larger li:nth-of-type(4),
+.nav-list-larger li:nth-of-type(7) {
+  transition-delay: 90ms;
+}
+
+.nav-list-larger li:nth-of-type(5),
+.nav-list-larger li:nth-of-type(6) {
+  transition-delay: 120ms;
+}
+
+.nav-list-larger li:nth-of-type(6),
+.nav-list-larger li:nth-of-type(5) {
+  transition-delay: 150ms;
+}
+
+.nav-list-larger li:nth-of-type(7),
+.nav-list-larger li:nth-of-type(4) {
+  transition-delay: 180ms;
+}
+
+.nav-list-larger li:nth-of-type(8),
+.nav-list-larger li:nth-of-type(3) {
+  transition-delay: 210ms;
+}
+
+.nav-list-larger li:nth-of-type(9),
+.nav-list-larger li:nth-of-type(2) {
+  transition-delay: 230ms;
+}
+
+.nav-list-larger li:nth-of-type(10),
+.nav-list-larger li:nth-of-type(1) {
+  transition-delay: 250ms;
+}
+
+/* Search container animation */
+.search-container form,
+.search-container .link-search {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 400ms ease;
+  transition-delay: 300ms;
+}
+
+.search-container.hide form,
+.search-container.hide .link-search {
+  opacity: 0;
+  transform: translateX(50px);
+}
+
+.search-container .link-search {
+  opacity: 0.6;
+}
+
+.search-container.hide .link-close {
+  opacity: 0;
+}
+
+.search-container .link-close {
+  opacity: 0.5;
+  transition: all 400ms ease;
+  transition-delay: 400ms;
+}
+
+.search-container.hide .quick-links h2 {
+  opacity: 0;
+  transform: translateX(50px);
+}
+
+.search-container .quick-links h2 {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 400ms ease;
+  transition-delay: 100ms;
+}
+
+.search-container.hide .quick-links ul li {
+  opacity: 0;
+  transform: translateX(70px);
+}
+
+.search-container .quick-links ul li {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 400ms ease;
+  transition-delay: 100ms;
+}
+
+.search-container .quick-links ul li:nth-of-type(1) {
+  transition-delay: 120ms;
+}
+
+.search-container .quick-links ul li:nth-of-type(2) {
+  transition-delay: 160ms;
+}
+
+.search-container .quick-links ul li:nth-of-type(3) {
+  transition-delay: 200ms;
+}
+
+.search-container .quick-links ul li:nth-of-type(4) {
+  transition-delay: 240ms;
+}
+
+.search-container .quick-links ul li:nth-of-type(5) {
+  transition-delay: 280ms;
 }
 
 /* End Search container */
