@@ -79,8 +79,8 @@ header {
   background: url("images/icons/apple.svg");
   display: block;
   background-position: center;
-  height: 44px;
-  width: 15px;
+  height: 4.4rem;
+  width: 1.5rem;
   background-repeat: no-repeat;
 }
 
@@ -88,9 +88,9 @@ header {
   background: url("images/icons/search.svg");
   display: block;
   background-position: center;
-  background-size: 18px;
-  height: 44px;
-  width: 20px;
+  background-size: 1.8rem;
+  height: 4.4rem;
+  width: 2rem;
   background-repeat: no-repeat;
 }
 
@@ -98,9 +98,9 @@ header {
   background: url("images/icons/close-icon.svg");
   display: block;
   background-position: center;
-  background-size: 17px;
-  height: 44px;
-  width: 20px;
+  background-size: 1.7rem;
+  height: 4.4rem;
+  width: 2rem;
   background-repeat: no-repeat;
 }
 
@@ -112,7 +112,7 @@ header {
 .search-container {
   width: 60%;
   margin: 0 auto;
-  padding: 0 42px;
+  padding: 0 4.2rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -122,14 +122,14 @@ header {
 
 .search-container .link-search {
   position: absolute;
-  left: 12px;
+  left: 1.2rem;
   opacity: 0.5;
 }
 
 .search-container .link-close {
   position: absolute;
   top: 0;
-  right: 12px;
+  right: 1.2rem;
   opacity: 0.5;
   cursor: pointer;
   transition: all 400ms;
@@ -146,13 +146,13 @@ header {
 
 .search-container form input {
   width: 100%;
-  height: 44px;
+  height: 4.4rem;
   border: 0;
   outline: none;
   background: transparent;
   color: #fff;
   font-family: "Inter", sans-serif;
-  font-size: 17px;
+  font-size: 1.7rem;
 }
 
 /* overlay */
@@ -173,8 +173,8 @@ header {
   position: absolute;
   left: 0;
   right: 0;
-  padding: 16px 8px;
-  border-radius: 0 0 16px 16px;
+  padding: 1.6rem 0.8rem;
+  border-radius: 0 0 1.6rem 1.6rem;
 }
 
 .search-container .quick-links h2 {
@@ -282,7 +282,7 @@ header {
 .search-container.hide form,
 .search-container.hide .link-search {
   opacity: 0;
-  transform: translateX(50px);
+  transform: translateX(5rem;
 }
 
 .search-container .link-search {
@@ -301,7 +301,7 @@ header {
 
 .search-container.hide .quick-links h2 {
   opacity: 0;
-  transform: translateX(50px);
+  transform: translateX(5rem);
 }
 
 .search-container .quick-links h2 {
@@ -313,7 +313,7 @@ header {
 
 .search-container.hide .quick-links ul li {
   opacity: 0;
-  transform: translateX(70px);
+  transform: translateX(7rem);
 }
 
 .search-container .quick-links ul li {
@@ -516,7 +516,7 @@ header {
 
 .column-3 {
   background: url(images/section/s-4.3.jpg);
-  background-size: 500px;
+  background-size: 50rem;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -797,12 +797,12 @@ header {
   font-size: 1.2rem;
   color: #86868b;
   list-style: none;
-  border-bottom: 1px solid #51515431;
+  border-bottom: 0.1rem solid #51515431;
 }
 
 .footer-wrapper ul li {
   margin: 2rem 0;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.01rem;
 }
 
 .footer-links {
@@ -818,16 +818,16 @@ header {
 
 .footer-links-column-title {
   font-weight: 400;
-  font-size: 12px;
-  margin-top: 18px;
-  margin-bottom: 15px;
-  letter-spacing: 0.5px;
+  font-size: 1.2rem;
+  margin-top: 1.8rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.05rem;
 }
 
 .footer-links-column a {
-  font-size: 12px;
+  font-size: 1.2rem;
   color: #515154;
-  margin-bottom: 12px;
+  margin-bottom: 1.2rem;
   font-family: "Roboto", sans-serif;
 }
 
@@ -836,7 +836,7 @@ header {
   padding-bottom: 1rem;
   display: flex;
   color: #515154;
-  border-bottom: 1px solid #51515431;
+  border-bottom: 0.1rem solid #51515431;
 }
 
 .footer-ending a {
@@ -850,9 +850,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 13px;
+  font-size: 1.3rem;
   color: #86868b;
-  margin-top: 4px;
+  margin-top: 0.4rem;
   position: relative;
 }
 
@@ -866,13 +866,13 @@ header {
 }
 
 .footer-copyright a {
-  padding: 0 8px;
+  padding: 0 0.8rem;
   color: #515154;
 }
 
 .footer-copyright-links a {
   color: #515154;
-  border-left: 1px solid #51515431;
+  border-left: 0.1rem solid #51515431;
 }
 
 .footer-copyright-links a:hover {
