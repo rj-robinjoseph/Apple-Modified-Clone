@@ -189,7 +189,7 @@ header {
   }
 
   .iphone-12 {
-    background: url("images/hero/iphone-11/iphone_11_medium.jpg");
+    background: url("images/hero/iphone-12/iphone-12-medium.png");
   }
 
   .watch {
@@ -217,8 +217,7 @@ header {
 
   .title-heading-watch {
     height: 6.2rem;
-    background: url("images/hero/watch/logo_watch_medium.png") center no-repeat;
-    background-size: auto 6.2rem;
+    background-size: auto 5.8rem;
   }
 }
 
@@ -479,7 +478,7 @@ header {
 
 @media only screen and (max-width: 1068px) {
   .slider {
-    height: 64rem;
+    height: 56rem;
   }
 
   .slide .content h1 {
@@ -488,6 +487,24 @@ header {
 
   .slide .content p {
     font-size: 2.4rem;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .slider {
+    height: 46rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .slider {
+    height: 36rem;
+  }
+}
+
+@media only screen and (max-width: 535px) {
+  .slider {
+    height: 30rem;
   }
 }
 
