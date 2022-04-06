@@ -320,7 +320,6 @@ header {
   opacity: 1;
   transform: translateX(0);
   transition: all 400ms ease;
-  transition-delay: 100ms;
 }
 
 .search-container .quick-links ul li:nth-of-type(1) {
@@ -328,19 +327,23 @@ header {
 }
 
 .search-container .quick-links ul li:nth-of-type(2) {
-  transition-delay: 160ms;
+  transition-delay: 140ms;
 }
 
 .search-container .quick-links ul li:nth-of-type(3) {
-  transition-delay: 200ms;
+  transition-delay: 160ms;
 }
 
 .search-container .quick-links ul li:nth-of-type(4) {
-  transition-delay: 240ms;
+  transition-delay: 180ms;
 }
 
 .search-container .quick-links ul li:nth-of-type(5) {
-  transition-delay: 280ms;
+  transition-delay: 200ms;
+}
+
+.search-container.hide {
+  transition: all 100ms ease-out;
 }
 
 /* End Search container */
