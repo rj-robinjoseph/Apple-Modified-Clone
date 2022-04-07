@@ -87,7 +87,7 @@ overlay.addEventListener("click", () => {
 });
 
 //------------------------------------------------------>
-var isMobile = /iPhone|iPad|Android/i.test(navigator.userAgent);
+const isMobile = /iPhone|iPad|Android/i.test(navigator.userAgent);
 if (!isMobile) {
   luxy.init({
     wrapper: "#luxy",
