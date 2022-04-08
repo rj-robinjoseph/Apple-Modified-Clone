@@ -91,6 +91,6 @@ const isMobile = /iPhone|iPad|Android/i.test(navigator.userAgent);
 if (!isMobile) {
   luxy.init({
     wrapper: "#luxy",
-    wrapperSpeed: 0.065,
+    wrapperSpeed: 0.075,
   });
 }
