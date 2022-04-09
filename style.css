@@ -81,7 +81,7 @@ header {
   }
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .container .nav-list-larger {
     flex-direction: column;
     position: fixed;
@@ -125,7 +125,7 @@ header {
   .container.active nav .nav-list-mobile {
     display: flex;
   }
-}
+} */
 /* Search container */
 .link-logo {
   background: url("images/icons/apple.svg");
