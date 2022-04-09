@@ -87,7 +87,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 104%;
     height: 0vh;
     background: #000;
     justify-content: start;
@@ -118,11 +118,11 @@ header {
   .container .nav-list-larger li a {
     display: inline-block;
     border-bottom: 1px solid #616161;
-    width: 100%;
+    width: 103%;
     font-size: 1.7rem;
   }
 
-  .nav-list-mobile {
+  .container.active nav .nav-list-mobile {
     display: flex;
   }
 }
